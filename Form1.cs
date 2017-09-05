@@ -14,6 +14,8 @@ namespace TestProjectForJenkinsAndSonarOnLunix
         public Form1()
         {
             InitializeComponent();
+            MathsCustom mc = new MathsCustom();
+            mc.Addition(1, 2);
         }
     }
 }
